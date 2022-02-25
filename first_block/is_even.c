@@ -2,6 +2,7 @@
 
 int main() {
     int number;
+    int result;
     scanf("%d", &number);
 
     if ((number % 2) == 0)

@@ -2,7 +2,6 @@
 #include <math.h>
 
 int main() {
-  
     int a;
     int res;
     int cell;
@@ -10,8 +9,6 @@ int main() {
     cell = a / 3;
     res = pow(2, cell);
     printf("%d", res);
-
-
 
     return 0;
 }

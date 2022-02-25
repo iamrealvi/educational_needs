@@ -2,13 +2,10 @@
 
 int main() {
     int a;
+    int res;
     scanf("%d", &a);
-
-    int b,c;
-    b = a / 10;
-    c = a % 10;
-    printf("%d%d",c,b);
+    res = (((a - 1) / 6) + 2);
+    printf("%d", res);
 
     return 0;
 }
-
