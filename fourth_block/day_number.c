@@ -1,11 +1,13 @@
 #include <stdio.h>
 
-int main() {
-    int a,b;
+int main()
+{
+    int a, b;
     int result;
     scanf("%d%d", &a, &b);
 
-    switch(a) {
+    switch (a)
+    {
     case 1:
         result = 0 + b;
         printf("%d", result);
@@ -54,7 +56,7 @@ int main() {
         result = 334 + b;
         printf("%d", result);
         break;
-    default: 
+    default:
         printf("ERROR!");
         break;
     }

@@ -1,13 +1,14 @@
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
     double a, b;
     char fuck;
     double result;
     scanf("%lf%lf%s", &a, &b, &fuck);
-    printf("%lf %lf %c\n", a, b, fuck);
 
-    switch(fuck) {
+    switch (fuck)
+    {
     case '+':
         result = a + b;
         printf("%.2lf", result);
@@ -21,10 +22,13 @@ int main(void) {
         printf("%.2lf", result);
         break;
     case '/':
-        if (b == 0) {
+        if (b == 0)
+        {
             printf("ERROR!");
             break;
-        } else {
+        }
+        else
+        {
             result = a / b;
             printf("%.2lf", result);
             break;
