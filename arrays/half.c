@@ -10,7 +10,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    for (int i = (N / 2) - 1; i >= 0; i--) {
+    for (int i = N / 2; i < N; i++) {
        printf("%d ", arr[i]);
     }
 
